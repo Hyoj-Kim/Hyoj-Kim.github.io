@@ -3,7 +3,7 @@ module.exports = {
   description: `Blog posted about ...`,
   author: `Hyojeong Kim`,
   introduction: `42Seoul Cadet | 하고 싶은 분야를 찾아서...`,
-  siteUrl: `https://hyoj-kim.github.io/hyojekim.github.io/`, // Your blog site url
+  siteUrl: `https://hyoj-kim.github.io/`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: ``, // Your GitHub account
@@ -16,7 +16,7 @@ module.exports = {
   keywords: [`blog`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: 'Hyoj-Kim/hyojekim.github.io', // Your repository for archive comment
+    utterances: 'Hyoj-Kim/Hyoj-Kim.github.io', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
