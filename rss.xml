@@ -1,4 +1,375 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[HYOJ]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://hyoj-kim.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 08 Dec 2021 08:11:32 GMT</lastBuildDate><item><title><![CDATA[Quick Start]]></title><description><![CDATA[Getting Started 😎 1. Create a Gatsby site. If you are not using , following Gatsby Getting Started 2. Start developing. 3. Add your content…]]></description><link>https://hyoj-kim.github.io/development/quick_start/</link><guid isPermaLink="false">https://hyoj-kim.github.io/development/quick_start/</guid><pubDate>Sun, 05 Jul 2020 17:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;getting-started-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#getting-started-&quot; aria-label=&quot;getting started  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Getting Started 😎&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[HYOJ]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://hyoj-kim.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 08 Dec 2021 09:43:29 GMT</lastBuildDate><item><title><![CDATA[Chromium에 기여하기]]></title><description><![CDATA[본 글은 Contributing to Chromium과 Commit Checklist의 일부를 번역하여 작성되었습니다. 이제 뭘 하면 되는거지? Chromium 빌드 환경을 구축한 뒤에는 해결하고자하는 Issue…]]></description><link>https://hyoj-kim.github.io/Chromium/chromium에-기여하기/</link><guid isPermaLink="false">https://hyoj-kim.github.io/Chromium/chromium에-기여하기/</guid><pubDate>Wed, 08 Dec 2021 17:13:12 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABj0lEQVQoz6WSS08CMRSF5z/zHwg7/oGiQEKAYDAxJiSGh4GgMczwUuMDNGF4TqedTgeXx9426sYNuji5p03Pl/beOicthZsHjsU6xNwP8XagKENZYhDLyTUVxq8ciWTgIYPgh4kylCUGsQxw+MKhJAdjHEHAEDCmvdWX51wg5FxXbryREGChzY5ehQbGGqivOdL03WaJzXaHOI4hpYTQh6MoMp6q7/tYrVZG5EmLxQJLvd6ufbhPzD65cP2Bq/4zLi/OUSgWUalUUC6XUSqVUK/XUavVUK1WkUqlTG00Gshms0in08hkMjg6PkYxn0PrboZ8Zw/ntJ3gdrrG4/0Yw+EI3W7XaDAYoNfrGe95HlzXNZVuNp1OMZlMzBnKvM9f0B8vQSyH3j2eRdirCJGMkSQJlBY9XSmlZb1tRWx6SG0g0V6kaxILw7A9bNoeShGYgTAW/KKf/fB7YHZNGSmYGez3lD29oC+wC0I75QNEGcp6X8B8W6HclTjrS9T+KMoSg1hOoRPrZioz8v+IGMT6BIrCDq55eXWoAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Untitled&quot;
+        title=&quot;Untitled&quot;
+        src=&quot;/static/b58fbb9c2f49667a1002c903dcb0598e/c1b63/Untitled.png&quot;
+        srcset=&quot;/static/b58fbb9c2f49667a1002c903dcb0598e/5a46d/Untitled.png 300w,
+/static/b58fbb9c2f49667a1002c903dcb0598e/0a47e/Untitled.png 600w,
+/static/b58fbb9c2f49667a1002c903dcb0598e/c1b63/Untitled.png 1200w,
+/static/b58fbb9c2f49667a1002c903dcb0598e/d61c2/Untitled.png 1800w,
+/static/b58fbb9c2f49667a1002c903dcb0598e/29114/Untitled.png 1920w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;본 글은 &lt;a href=&quot;https://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/contributing.md&quot;&gt;Contributing to Chromium&lt;/a&gt;과 &lt;a href=&quot;https://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/commit_checklist.md&quot;&gt;Commit Checklist&lt;/a&gt;의 일부를 번역하여 작성되었습니다.&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;이제-뭘-하면-되는거지&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%B4%EC%A0%9C-%EB%AD%98-%ED%95%98%EB%A9%B4-%EB%90%98%EB%8A%94%EA%B1%B0%EC%A7%80&quot; aria-label=&quot;이제 뭘 하면 되는거지 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;이제 뭘 하면 되는거지?&lt;/h1&gt;
+&lt;p&gt;Chromium 빌드 환경을 구축한 뒤에는 해결하고자하는 Issue를 찾고, 수정해서 코드리뷰를 받는 본격적인 기여 작업을 시작하면 된다.&lt;/p&gt;
+&lt;p&gt;Chromium 관련 Issue는 아래 링크로 접속해 확인할 수 있다. &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://bugs.chromium.org/p/chromium/issues/list&quot;&gt;Monorail - chromium - An open-source project to help move the web forward. - Monorail&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;라벨이나 필터 기능을 이용해 골라서 검색할 수 있으며, GoodFirstBug 라벨은 입문자에게 추천하는 이슈들이라고 한다.&lt;/p&gt;
+&lt;p&gt;진행하고자 하는 Issue를 찾았다면, comment를 달아 다른 사람이 동시에 진행하는 일이 생기지 않도록 하자.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Chromium에 기여하는게 완전 처음이라면?&lt;/p&gt;
+&lt;p&gt;Contributing to Chromium에는 처음 기여할 때 거쳐야하는 절차가 안내되어있다. &lt;/p&gt;
+&lt;h2 id=&quot;legal-stuff&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#legal-stuff&quot; aria-label=&quot;legal stuff permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Legal Stuff&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;모든 기여자는 &lt;a href=&quot;https://cla.developers.google.com/clas&quot;&gt;CLA&lt;/a&gt; 서명을 진행해야한다.&lt;/li&gt;
+&lt;li&gt;오픈소스 프로젝트의 저작권 법적 문제를 피하기 위한 장치이다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;first-time-contributors&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#first-time-contributors&quot; aria-label=&quot;first time contributors permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;First-time contributors&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;처음 기여하는 경우 Chromium이나 Chromium OS의 AUTHORS 파일에 이름과 연락처 정보를 추가한다.&lt;/li&gt;
+&lt;li&gt;이 때 수정한 내용만 가지고 패치하지 말고 처음 패치할 때 추가해서 진행해야한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABr0lEQVQoz41Sf3OUMBDlU1jlgMBBgOsl/AoE6F2Ps9az41TrjI5+/0/y3ERlaHFG/3hkE3Zf3r6NM93do+s6KNWiVQ26VqFpFOq6gZQFiqKguLb7qqoghFzB5FRVTXUNnOZ3chwnSOLYFpkf5oL9fo8oirDZbGZ4nreC67rgPLX5TqV69HqwapIkgSa146Bxnk6QYo8gCP4Jc1G+21kxTk3tlRSkaQaecoznC7rbC6YPT9Cn9/YSxgICszAEvu+vCLMsR1mWcJRS5KG2B0nCMYwH9ITz3TuUtUIYhitFfyfMrJdOSWbe3BysqZxzGoyC1h2m0y352JCH4Uxg1pdkc8t5/ovQfFTb2mmZ9lqK+77HNE3WkyXJn3iJJaFt2RD2Q28VxjRlKaUlMudCCKv6fwZjCE2tI4oSejyioqeT0egLUirpLCVPom0MRh76AXuGYAGzZ2GEkJ6XyXUaktk1FXIe45pvMZQCnbyGzFPIXQqRc2RxCLZ5g8B9beGvcDXDqT9/h7j/ge3xE9jhCcnbb0jOXxEev8AbHuGNj3D1R1ypC14RzMqGB7D+YV79BX4CgtND+ITOOUEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Untitled 1&quot;
+        title=&quot;Untitled 1&quot;
+        src=&quot;/static/1cc0be4fe3eb1253e95ec34748b2aad9/c1b63/Untitled%201.png&quot;
+        srcset=&quot;/static/1cc0be4fe3eb1253e95ec34748b2aad9/5a46d/Untitled%201.png 300w,
+/static/1cc0be4fe3eb1253e95ec34748b2aad9/0a47e/Untitled%201.png 600w,
+/static/1cc0be4fe3eb1253e95ec34748b2aad9/c1b63/Untitled%201.png 1200w,
+/static/1cc0be4fe3eb1253e95ec34748b2aad9/d61c2/Untitled%201.png 1800w,
+/static/1cc0be4fe3eb1253e95ec34748b2aad9/29114/Untitled%201.png 1920w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+알파벳순으로 정렬된 파일을 쭉 따라서 내 이름이 들어갈 위치에 추가로 작성하고 저장한다.&lt;/p&gt;
+&lt;p&gt;알파벳순으로 정렬된 파일을 쭉 따라서 내 이름이 들어갈 위치에 추가로 작성하고 저장한다.&lt;/p&gt;
+&lt;h2 id=&quot;initial-git-setup&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#initial-git-setup&quot; aria-label=&quot;initial git setup permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Initial git setup&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://chromium-review.googlesource.com/new-password&quot;&gt;https://chromium-review.googlesource.com/new-password&lt;/a&gt; 로 접속한다.&lt;/li&gt;
+&lt;li&gt;하라는대로 cmd창에 복붙해준다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 989px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 91.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsSAAALEgHS3X78AAACrklEQVQ4y6WUWW/UMBDH8/0feS2HygPwgNryzheAFkr33m12N/fh3HHuTfJn7FarrkAqFZZ+mfHYGc/4GCXKB+QBgx94OFQVDn2PnhBtHEe8tCl5NaKKGTzGMDYNusMBB0I4G8fhUf47Sl0VYEGIJI6RpBn+tykpObEsC67rIgwCcJ4TnCiR51zCeYEsy49607QQuzEM4wkywoKvyOE5XOcTRXgJXnxBVV+hay/RPqFpLlDXF1K2zSWNXx1ppfxM8hsUzu+w3b2Cpp1BM95ib57Dct/BZ2/guGfwvNdwiTQ7R918oMX+xkfiPS34FUqSubhdaFjuIkzWDmb3HqYbD7dzG9d3Gq4nOn4tHcliG2KtJTQ3lvNX+1jaZveM+glYOKeUSx9u6MCPQngRnXYUSOnHAYIkOsKSECwOpd2P/sQNGbJ8QxEmCWzHgGXrlPoai+UU88UUO02VdsPcQ9NVOe4zh/Y4RVnlJxSPchg6KJaX4sfMpHRF6hbWeoK9U2JnF9haHKqZYaOnUhfoXg0z6GCy9ohBWEFL93eAwuKS9oFBNWLak4B+jrA1ExiecJqRgwJ+OsCND/CSXko37h4hm+yLsY4c9iLCBDfTPW4mOzoIHdO1je93KiYrC7ONI1nuGFbEcsukvlA9ysiS828XOn7ONJpvyFemGE5EKesyMhGpYLUPyUGIOZ24OPXJypb2uerLsa2dQ7VoK4yETj2Wtnv6XzqMEw7TjWA6IQw7oDsYwfKp75H0Huya6UuEbnsxvCAHi7iUcVYjr3rk5YEOhfawrisU9NwKnklZFuK5pZJC6FkKnuf09FL5LEW/bRsMPRWRrpMF5OQti09R90iLHmU90Cp44AWV66TaUBdZ0dLlbZHyjvSOnHcyBXENxPhzJetp7VSeq6FPi+y/FNzfSoxSQd+h1roAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Untitled 2&quot;
+        title=&quot;Untitled 2&quot;
+        src=&quot;/static/99a669a12cf0842e584e61b8299e9229/8ecb0/Untitled%202.png&quot;
+        srcset=&quot;/static/99a669a12cf0842e584e61b8299e9229/5a46d/Untitled%202.png 300w,
+/static/99a669a12cf0842e584e61b8299e9229/0a47e/Untitled%202.png 600w,
+/static/99a669a12cf0842e584e61b8299e9229/8ecb0/Untitled%202.png 989w&quot;
+        sizes=&quot;(max-width: 989px) 100vw, 989px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+복사를 위해 파란색 상자를 한 번 클릭하면 한 번에 선택되므로 바로 ctrl+C, ctrl+V 진행하면 된다.&lt;/p&gt;
+&lt;p&gt;복사를 위해 파란색 상자를 한 번 클릭하면 한 번에 선택되므로 바로 ctrl+C, ctrl+V 진행하면 된다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 10%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAAsSAAALEgHS3X78AAAAWElEQVQI1zWNyQkAIBADbUJRvE/sv8FIAj7CkB3ImrUWaq1IKSHGiNYaSinqIQTdSPacs9z3dM45xXsPay3MvRdzTg0xHGfvvSt8uPcWzzka/W6MIf5H5APJwjYfSuvPjQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;위에서 추천한대로 Git CMD를 이용해서 진행했다.&quot;
+        title=&quot;위에서 추천한대로 Git CMD를 이용해서 진행했다.&quot;
+        src=&quot;/static/dfb1c2b6bd505cfaef0df7ec73be4df5/c1b63/Untitled%203.png&quot;
+        srcset=&quot;/static/dfb1c2b6bd505cfaef0df7ec73be4df5/5a46d/Untitled%203.png 300w,
+/static/dfb1c2b6bd505cfaef0df7ec73be4df5/0a47e/Untitled%203.png 600w,
+/static/dfb1c2b6bd505cfaef0df7ec73be4df5/c1b63/Untitled%203.png 1200w,
+/static/dfb1c2b6bd505cfaef0df7ec73be4df5/690c6/Untitled%203.png 1201w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;위에서 추천한대로 Git CMD를 이용해서 진행했다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Git 기본 설정을 다시 확인한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 844px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 31%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAAA80lEQVQY03WR2W6FMAxE+f9/7IUkkIQsbGIRUJjablWVVn0YTRIp42O7GIYBMSXkLiPnDm3boqNz4recEUIQX9cVy7KI7/v+r4oYA7QxaJoGzjm8Xm9ovYfSCtZaKKWhlaIinajv+0fAcRwPFUwTYiTKiETOIfyRyTwFp5QxTRPu+8Z1XaR3nOf5rb+EFFRWlRA572CItq5rKKPErXXSPodnci7GY2KN4yhUP2kLnl2lKlQUGrh9CtZGw9SGwrW8N1SkLEsoOnvfSmgmkKEfHoFCyO2k/LkErsitpq8lJfoU+U6j4MVE8nmesW2bLIf99ww/AGY4x3YsPymHAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Untitled 4&quot;
+        title=&quot;Untitled 4&quot;
+        src=&quot;/static/f6929609da70eb77d62c8a1eee28e02b/33e10/Untitled%204.png&quot;
+        srcset=&quot;/static/f6929609da70eb77d62c8a1eee28e02b/5a46d/Untitled%204.png 300w,
+/static/f6929609da70eb77d62c8a1eee28e02b/0a47e/Untitled%204.png 600w,
+/static/f6929609da70eb77d62c8a1eee28e02b/33e10/Untitled%204.png 844w&quot;
+        sizes=&quot;(max-width: 844px) 100vw, 844px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 930px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 18.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAAeElEQVQY041OyQoFIQzz6oLgrqD+/1/mkT56mMPAHEqWNiXm3os5J8YYMuT01lrYe4turaH3LkhNrhnekeecEWOEOec8HnLovT3knpxYShGv1ir31EZDXxoyqFpviWxmrYVz7t+Q4beHRH3ABtpQvZQSvPcIIcj8AOj7ZOS3K2xHAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Untitled&quot;
+        title=&quot;Untitled&quot;
+        src=&quot;/static/555aa01f9596cefa25bf65f01a745734/416ee/Untitled%205.png&quot;
+        srcset=&quot;/static/555aa01f9596cefa25bf65f01a745734/5a46d/Untitled%205.png 300w,
+/static/555aa01f9596cefa25bf65f01a745734/0a47e/Untitled%205.png 600w,
+/static/555aa01f9596cefa25bf65f01a745734/416ee/Untitled%205.png 930w&quot;
+        sizes=&quot;(max-width: 930px) 100vw, 930px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://chromium-review.googlesource.com/settings/&quot;&gt;https://chromium-review.googlesource.com/settings/&lt;/a&gt; 접속해서 이메일이 맞게 설정되었는지 재확인한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 960px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 27.999999999999996%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAAA30lEQVQY03WQjW6DMAyE8/5vWCoghA5KkiJINE3LD1c70K6rVEufzjbBOUcMwwBGa4NxHDEQSvVYnUNKCSEEIiLGeNS7cs3knLFtW4H7ojqf0bQt6rrGqarQNC0uly/0fY+W+lJKyK6jXJa661RBqV2d83gEXy7YkTEG1lpyeMWyrMXF7uwg/tUx/v9WXJI7Ds6Fo9Xeg3t8iff+WCcXeCXmdU3OgX1gSjSQnU3TVBzykNs8F9Vak1rM8w1X62GWH/o5PYc+hxO/gd425qLi8cDvB1+JKRMbPoX7DlgJ1jsqwM9f0Go2eQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Untitled&quot;
+        title=&quot;Untitled&quot;
+        src=&quot;/static/fa0df7b705a2596b6ae0d1071979d61e/d9199/Untitled%206.png&quot;
+        srcset=&quot;/static/fa0df7b705a2596b6ae0d1071979d61e/5a46d/Untitled%206.png 300w,
+/static/fa0df7b705a2596b6ae0d1071979d61e/0a47e/Untitled%206.png 600w,
+/static/fa0df7b705a2596b6ae0d1071979d61e/d9199/Untitled%206.png 960w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 960px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 95%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsSAAALEgHS3X78AAACr0lEQVQ4y41US08TURTuf1GMGjVFhL6m05lpO+2009dQ+qJQCAtIDDuiQggLqboz0UQXLo2PxFcTgzakJGqUFHXBEkxcuHDr3t3nObcMdIoNXXy5d+45891zznfOdb1o7qLR3Ebj/Tbebu7gzbsvePJyExutb7T/LL6fvm7hQ3sPH3f2ad0/WPfw6esPbGx9x/NXTTx41sZW+ydc6XwRuYkSrEJZQInEICkRBNVuRMVZB+FjCIV1jHglXF9ehcuauYrizDzyxRIqU7NIZizhoEbjAhqBL7Gh6nSmGwLCTms4ZmDE48e15RUiLFRQnKyhWptDuTqD8lQHJTpjlOmSyjR9V2k/PYv0eAFxMwsj1UEibYmVCVdW1+AyM+NI5fKOFHzBEIKKhqiRgscfEGnzOa9+WSW74gDb3Fe8WL91By67ToGQJgz8gxo1sHS3hbXHv1FbrAtSrp/t0wtZi8I9ekDITrYjF3/U40V14Qbut4D5h39xr/GLLlEcBL3EDkKnUwQ+SYaRmUCtvgtr/Q+mlx4hEJT6KvzfCHtvD5KDlp1DKLcIj6TAT3UK9InuGGEkbkLqSptrqOkJUrgKw0yQMCa1RaIv2TFCI52Dnkg5IuT+yhcnkcyOU0tkyG6S6gMSxlM50UuOlEl1bmLe261hk52YsiDMWIfpSkonfZlVJ3UvXhrG+QvuA9sghNz1lDbXUonEhSBjPglDZ84JnBo6i9MEu4FPJIwl0yJlk+rFAnQmRcFlchgZ8x1i4JSZMEkRcvG7J0ZSj/rOHr1usu69g5CH3SpWkKVnjNXlWsk0MWF6RSKxJFQSx67fQJOiU4QxqiOLwwZb5Sj1nkE2I5EmceihIHK5K4O+ERpUvwxFx0rL9A5yNPwemnSBHjMFEZNqJJjHHzwi6yEcJsKb9dv4BwyQ10JSzhkqAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Untitled&quot;
+        title=&quot;Untitled&quot;
+        src=&quot;/static/92eee63f58ca063d8edf21a89b28de25/d9199/Untitled%207.png&quot;
+        srcset=&quot;/static/92eee63f58ca063d8edf21a89b28de25/5a46d/Untitled%207.png 300w,
+/static/92eee63f58ca063d8edf21a89b28de25/0a47e/Untitled%207.png 600w,
+/static/92eee63f58ca063d8edf21a89b28de25/d9199/Untitled%207.png 960w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;여기까지의 기본 세팅은 맨 처음 1회만 진행하면 된다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;본격적으로-코드를-수정해보자&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B3%B8%EA%B2%A9%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%88%98%EC%A0%95%ED%95%B4%EB%B3%B4%EC%9E%90&quot; aria-label=&quot;본격적으로 코드를 수정해보자 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;본격적으로 코드를 수정해보자&lt;/h1&gt;
+&lt;p&gt;기본 세팅까지도 완료되었으면 아래의 체크리스트를 따라가면서 이슈를 해결해보자.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Create a new branch or witch to the correct branch&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;git checkout -b &amp;lt;branch_name&gt; -t origin/main&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;작업을 시작하기 전 늘 새로운 branch를 생성해 진행한다.&lt;/li&gt;
+&lt;li&gt;혹은 이미 만들어진 적절한 branch로 이동해서 작업하자.&lt;/li&gt;
+&lt;li&gt;+) 작업하고자하는 crbug 상태를 “started”로 전환해서 중복 작업을 피할 수 있도록 하자.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://dogfeet.github.io/articles/2012/git-tracking-vs-remote-tracking.html&quot;&gt;http://dogfeet.github.io/articles/2012/git-tracking-vs-remote-tracking.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://git-scm.com/book/ko/v2/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EB%B8%8C%EB%9E%9C%EC%B9%98%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80&quot;&gt;https://git-scm.com/book/ko/v2/Git-브랜치-브랜치란-무엇인가&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;upstream에 변경된 사항을 그와 연결된 downstream에 적용하려면 &lt;code class=&quot;language-text&quot;&gt;git rebase -i&lt;/code&gt; 명령어를 이용해 rebase 작업을 진행한다.&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;사실 이 부분이 어떤 경우를 뜻하는지 잘 모르겠다;&lt;/del&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If there’s a local upstream branch, rebase the upstream changes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;rebase가 끝나면 &lt;code class=&quot;language-text&quot;&gt;git rebase --continue&lt;/code&gt; 를 실행한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Make your changes&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Make sure the code builds correctly&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;마음껏 수정한 뒤, 최소한의 공통 대상들에 대해 빌드가 정상적으로 이루어지는지 확인한다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;chrome&lt;/li&gt;
+&lt;li&gt;unit_tests&lt;/li&gt;
+&lt;li&gt;broweser_tests&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;의도치않게 다른 빌드를 간섭하는 경우가 쉽게 발생할 수 있으므로 확인하고 넘어가자.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Test your changes&lt;/li&gt;
+&lt;li&gt;Write unit or browser tests for any new code&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ensure the code is formatted nicely&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git cl format --js&lt;/code&gt; 을 실행해 기본적인 코딩 가이드를 맞춰준다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;--js&lt;/code&gt; 옵션은 JavaScript도 기본 format에 맞게 수정해준다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Review your changes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;git diff&lt;/code&gt; 나 &lt;code class=&quot;language-text&quot;&gt;git upstream-diff&lt;/code&gt; 를 이용해 이전 커밋들과의 변경사항을 다시 확인한다.&lt;/li&gt;
+&lt;li&gt;여기서 &lt;code class=&quot;language-text&quot;&gt;git upstream-diff&lt;/code&gt;의 결과가 cl upload 했을 때 Gerrit에 업로드 되는 내용이다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Stage relevant files for commit&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;git add&lt;/code&gt; 로 수정한 모든 파일들을 등록한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Commit your changes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;commit message 작성법을 참고해서 커밋을 진행한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Squash your commits&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;너무 많은 커밋들이 있는 상황에서 커밋별 충돌을 방지하기 위해서는 하나의 커밋으로 합쳐주는 것을 고려해볼만하다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;git commit --amend&lt;/code&gt; 명령어는 가장 최신 커밋에 현재 수정내역을 합치는 방식이다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;git rebase -i&lt;/code&gt; 명령어를 이용해 편집기 화면이 뜨면 pick 대신 squash를 작성해 하나의 커밋에 squash라고 쓰인 커밋들이 합쳐진다.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://git-scm.com/book/ko/v2/Git-%EB%8F%84%EA%B5%AC-%ED%9E%88%EC%8A%A4%ED%86%A0%EB%A6%AC-%EB%8B%A8%EC%9E%A5%ED%95%98%EA%B8%B0&quot;&gt;https://git-scm.com/book/ko/v2/Git-도구-히스토리-단장하기&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/35044229/git-difference-between-amend-and-squash-commands&quot;&gt;https://stackoverflow.com/questions/35044229/git-difference-between-amend-and-squash-commands&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Rebase your local repository&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;변경사항을 동기화하고 merge시 발생하는 충돌 오류를 해결하는 절차이다.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git rebase-update&lt;/code&gt; 를 실행해 Chromium 소스파일들(origin/main)을 업데이트하고 rebase한다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;이 때 충돌이 발생하면 수동으로 수정이 필요하다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;rebase 이후 빌드가 깨질 수도 있으므로 &lt;code class=&quot;language-text&quot;&gt;gclient sync -D&lt;/code&gt; 를 통해 종속성을 업데이트시켜준다&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;하위 저장소들도 동기화하고 더이상 필요하지 않는 것을 삭제한다.&lt;/li&gt;
+&lt;li&gt;필요에 따라 hooks를 다시 실행하기도 한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Upload the CL to Gerrit&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git cl upload&lt;/code&gt; 를 실행시킨다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;-b &amp;lt;bug_number&gt;&lt;/code&gt;를 이용하면 자동적으로 커밋메세지에 bug 참조가 생긴다. &lt;code class=&quot;language-text&quot;&gt;-b None&lt;/code&gt;도 사용할 수 있다.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;—edit-description&lt;/code&gt;을 이용하면 커밋 메세지를 업데이트 할 수 있다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;대괄호를 사용해서 hashtag를 추가할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;-r&lt;/code&gt;옵션을 사용하면 리뷰어를 추가할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git cl issue&lt;/code&gt;를 통해 올바른 Gerrit의 change list에 업로드되는지 확인한다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;새로운 change list라면 issue number는 따로 없고 업로드할 때 자동적으로 생성된다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;git cl issue &amp;lt;issue_number&gt;&lt;/code&gt;를 이용하면 새 패치를 업로드하기 위해 기존 change list를 지정할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Patch title을 잘 작성해주자.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Check the CL again in Gerrit&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;git cl web&lt;/code&gt;을 통해 연결된 Gerrit URL로 접속하고 업로드된 파일들이 올바른지 확인하자.&lt;/li&gt;
+&lt;li&gt;리뷰 요청 전에 자체적으로 검토하자.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Make sure all auto-regression tests pass&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;“CQ Dry Run”을 클릭해 모든 검토가 끝날때까지 기다린다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Add reviewers to review your code&lt;/li&gt;
+&lt;li&gt;Start Your Review&lt;/li&gt;
+&lt;li&gt;Implement feedback from your reviewers&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Land your CL&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LGTM : Looks Good To Me&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Cleanup&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Change list가 반영되고 나면, git rebase-update나 git cl archive를 실행해 작업 branch를 정리한다.&lt;/li&gt;
+&lt;li&gt;crbug 상태를 “fixed”로 변경한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[1208 - 말로만 하던 기술블로그, 드디어 시작]]></title><description><![CDATA[템플릿이 예쁘니까 괜히 그럴듯해 보이는 효과ㅎ]]></description><link>https://hyoj-kim.github.io/Blog/1208---말로만-하던-기술블로그,-드디어-시작/</link><guid isPermaLink="false">https://hyoj-kim.github.io/Blog/1208---말로만-하던-기술블로그,-드디어-시작/</guid><pubDate>Wed, 08 Dec 2021 17:12:07 GMT</pubDate><content:encoded>&lt;p&gt;템플릿이 예쁘니까 괜히 그럴듯해 보이는 효과ㅎ&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Quick Start]]></title><description><![CDATA[Getting Started 😎 1. Create a Gatsby site. If you are not using , following Gatsby Getting Started 2. Start developing. 3. Add your content…]]></description><link>https://hyoj-kim.github.io/development/quick_start/</link><guid isPermaLink="false">https://hyoj-kim.github.io/development/quick_start/</guid><pubDate>Sun, 05 Jul 2020 17:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;getting-started-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#getting-started-&quot; aria-label=&quot;getting started  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Getting Started 😎&lt;/h1&gt;
 &lt;h2 id=&quot;1-create-a-gatsby-site&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-create-a-gatsby-site&quot; aria-label=&quot;1 create a gatsby site permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Create a Gatsby site.&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;# create a new Gatsby site using the blog starter
 $ npx gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -192,7 +563,7 @@ draft: false
 &lt;/ol&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Let’s Start! &lt;a href=&quot;https://github.com/JaeYeopHan/gatsby-starter-bee&quot;&gt;Go&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Category Test4]]></title><description><![CDATA[Test1]]></description><link>https://hyoj-kim.github.io/category4/test4/</link><guid isPermaLink="false">https://hyoj-kim.github.io/category4/test4/</guid><pubDate>Thu, 02 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Test1&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Category Test3]]></title><description><![CDATA[Test1]]></description><link>https://hyoj-kim.github.io/category3/test3/</link><guid isPermaLink="false">https://hyoj-kim.github.io/category3/test3/</guid><pubDate>Thu, 02 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Test1&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Category Test2]]></title><description><![CDATA[Test1]]></description><link>https://hyoj-kim.github.io/category2/test2/</link><guid isPermaLink="false">https://hyoj-kim.github.io/category2/test2/</guid><pubDate>Thu, 02 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Test1&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Category Test1]]></title><description><![CDATA[Test1]]></description><link>https://hyoj-kim.github.io/category1/test1/</link><guid isPermaLink="false">https://hyoj-kim.github.io/category1/test1/</guid><pubDate>Thu, 02 Jul 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Test1&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test9]]></title><description><![CDATA[Test9]]></description><link>https://hyoj-kim.github.io/essay/test9/</link><guid isPermaLink="false">https://hyoj-kim.github.io/essay/test9/</guid><pubDate>Sun, 14 Jun 2020 16:29:13 GMT</pubDate><content:encoded>&lt;p&gt;Test9&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test8]]></title><description><![CDATA[Test8]]></description><link>https://hyoj-kim.github.io/essay/test8/</link><guid isPermaLink="false">https://hyoj-kim.github.io/essay/test8/</guid><pubDate>Sun, 14 Jun 2020 16:28:13 GMT</pubDate><content:encoded>&lt;p&gt;Test8&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test7]]></title><description><![CDATA[Test7]]></description><link>https://hyoj-kim.github.io/essay/test7/</link><guid isPermaLink="false">https://hyoj-kim.github.io/essay/test7/</guid><pubDate>Sun, 14 Jun 2020 16:27:13 GMT</pubDate><content:encoded>&lt;p&gt;Test7&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test6]]></title><description><![CDATA[Test6]]></description><link>https://hyoj-kim.github.io/essay/test6/</link><guid isPermaLink="false">https://hyoj-kim.github.io/essay/test6/</guid><pubDate>Sun, 14 Jun 2020 16:26:13 GMT</pubDate><content:encoded>&lt;p&gt;Test6&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test5]]></title><description><![CDATA[Test5]]></description><link>https://hyoj-kim.github.io/essay/test5/</link><guid isPermaLink="false">https://hyoj-kim.github.io/essay/test5/</guid><pubDate>Sun, 14 Jun 2020 16:25:13 GMT</pubDate><content:encoded>&lt;p&gt;Test5&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test4]]></title><description><![CDATA[Test4]]></description><link>https://hyoj-kim.github.io/essay/test4/</link><guid isPermaLink="false">https://hyoj-kim.github.io/essay/test4/</guid><pubDate>Sun, 14 Jun 2020 16:24:13 GMT</pubDate><content:encoded>&lt;p&gt;Test4&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test3]]></title><description><![CDATA[Test3]]></description><link>https://hyoj-kim.github.io/essay/test3/</link><guid isPermaLink="false">https://hyoj-kim.github.io/essay/test3/</guid><pubDate>Sun, 14 Jun 2020 16:23:13 GMT</pubDate><content:encoded>&lt;p&gt;Test3&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test2]]></title><description><![CDATA[Test2]]></description><link>https://hyoj-kim.github.io/essay/test2/</link><guid isPermaLink="false">https://hyoj-kim.github.io/essay/test2/</guid><pubDate>Sun, 14 Jun 2020 16:22:13 GMT</pubDate><content:encoded>&lt;p&gt;Test2&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test1]]></title><description><![CDATA[Test1]]></description><link>https://hyoj-kim.github.io/essay/test1/</link><guid isPermaLink="false">https://hyoj-kim.github.io/essay/test1/</guid><pubDate>Sun, 14 Jun 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Test1&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Second Post]]></title><description><![CDATA[Second Post]]></description><link>https://hyoj-kim.github.io/development/second/</link><guid isPermaLink="false">https://hyoj-kim.github.io/development/second/</guid><pubDate>Sun, 03 Feb 2019 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Second Post&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Third Post]]></title><description><![CDATA[Third Post]]></description><link>https://hyoj-kim.github.io/development/third/</link><guid isPermaLink="false">https://hyoj-kim.github.io/development/third/</guid><pubDate>Fri, 01 Feb 2019 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Third Post&lt;/p&gt;</content:encoded></item><item><title><![CDATA[about]]></title><description><![CDATA[Your name Thank you for reading my resume. If you want to contact me, Please send me an email.]]></description><link>https://hyoj-kim.github.io/resume-en/</link><guid isPermaLink="false">https://hyoj-kim.github.io/resume-en/</guid><pubDate>Sun, 27 Jan 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;your-name&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#your-name&quot; aria-label=&quot;your name permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Your name&lt;/h1&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Test9]]></title><description><![CDATA[Test9]]></description><link>https://hyoj-kim.github.io/essay/test9/</link><guid isPermaLink="false">https://hyoj-kim.github.io/essay/test9/</guid><pubDate>Sun, 14 Jun 2020 16:29:13 GMT</pubDate><content:encoded>&lt;p&gt;Test9&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test8]]></title><description><![CDATA[Test8]]></description><link>https://hyoj-kim.github.io/essay/test8/</link><guid isPermaLink="false">https://hyoj-kim.github.io/essay/test8/</guid><pubDate>Sun, 14 Jun 2020 16:28:13 GMT</pubDate><content:encoded>&lt;p&gt;Test8&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test7]]></title><description><![CDATA[Test7]]></description><link>https://hyoj-kim.github.io/essay/test7/</link><guid isPermaLink="false">https://hyoj-kim.github.io/essay/test7/</guid><pubDate>Sun, 14 Jun 2020 16:27:13 GMT</pubDate><content:encoded>&lt;p&gt;Test7&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test6]]></title><description><![CDATA[Test6]]></description><link>https://hyoj-kim.github.io/essay/test6/</link><guid isPermaLink="false">https://hyoj-kim.github.io/essay/test6/</guid><pubDate>Sun, 14 Jun 2020 16:26:13 GMT</pubDate><content:encoded>&lt;p&gt;Test6&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test5]]></title><description><![CDATA[Test5]]></description><link>https://hyoj-kim.github.io/essay/test5/</link><guid isPermaLink="false">https://hyoj-kim.github.io/essay/test5/</guid><pubDate>Sun, 14 Jun 2020 16:25:13 GMT</pubDate><content:encoded>&lt;p&gt;Test5&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test4]]></title><description><![CDATA[Test4]]></description><link>https://hyoj-kim.github.io/essay/test4/</link><guid isPermaLink="false">https://hyoj-kim.github.io/essay/test4/</guid><pubDate>Sun, 14 Jun 2020 16:24:13 GMT</pubDate><content:encoded>&lt;p&gt;Test4&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test3]]></title><description><![CDATA[Test3]]></description><link>https://hyoj-kim.github.io/essay/test3/</link><guid isPermaLink="false">https://hyoj-kim.github.io/essay/test3/</guid><pubDate>Sun, 14 Jun 2020 16:23:13 GMT</pubDate><content:encoded>&lt;p&gt;Test3&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test2]]></title><description><![CDATA[Test2]]></description><link>https://hyoj-kim.github.io/essay/test2/</link><guid isPermaLink="false">https://hyoj-kim.github.io/essay/test2/</guid><pubDate>Sun, 14 Jun 2020 16:22:13 GMT</pubDate><content:encoded>&lt;p&gt;Test2&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test1]]></title><description><![CDATA[Test1]]></description><link>https://hyoj-kim.github.io/essay/test1/</link><guid isPermaLink="false">https://hyoj-kim.github.io/essay/test1/</guid><pubDate>Sun, 14 Jun 2020 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Test1&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Second Post]]></title><description><![CDATA[Second Post]]></description><link>https://hyoj-kim.github.io/development/second/</link><guid isPermaLink="false">https://hyoj-kim.github.io/development/second/</guid><pubDate>Sun, 03 Feb 2019 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Second Post&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Third Post]]></title><description><![CDATA[Third Post]]></description><link>https://hyoj-kim.github.io/development/third/</link><guid isPermaLink="false">https://hyoj-kim.github.io/development/third/</guid><pubDate>Fri, 01 Feb 2019 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Third Post&lt;/p&gt;</content:encoded></item><item><title><![CDATA[about]]></title><description><![CDATA[Your name Thank you for reading my resume. If you want to contact me, Please send me an email.]]></description><link>https://hyoj-kim.github.io/resume-en/</link><guid isPermaLink="false">https://hyoj-kim.github.io/resume-en/</guid><pubDate>Sun, 27 Jan 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;your-name&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#your-name&quot; aria-label=&quot;your name permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Your name&lt;/h1&gt;
 &lt;div align=&quot;center&quot;&gt;
 &lt;p&gt;&lt;em&gt;Thank you for reading my resume. If you want to contact me, Please send me an email.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;</content:encoded></item><item><title><![CDATA[Draft]]></title><description><![CDATA[Draft Post]]></description><link>https://hyoj-kim.github.io/development/draft/</link><guid isPermaLink="false">https://hyoj-kim.github.io/development/draft/</guid><pubDate>Thu, 03 Jan 2019 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Draft Post&lt;/p&gt;</content:encoded></item></channel></rss>
