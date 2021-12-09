@@ -1,12 +1,12 @@
 module.exports = {
-  title: `HYOJ`,
+  title: `HyoJ.io`,
   description: `Blog posted about ...`,
   author: `Hyojeong Kim`,
-  introduction: `42Seoul Cadet | 하고 싶은 분야를 찾아서...`,
+  introduction: `42Seoul Cadet | 하고 싶은 분야를 찾고 있는 예비 개발자`,
   siteUrl: `https://hyoj-kim.github.io/`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
-    github: ``, // Your GitHub account
+    github: `https://github.com/Hyoj-Kim`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
@@ -22,7 +22,7 @@ module.exports = {
     countOfInitialPost: 10, // Config your initial count of post
   },
   sponsor: {
-    buyMeACoffeeId: 'jbee',
+    buyMeACoffeeId: 'hyojekim',
   },
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
