@@ -22,6 +22,11 @@ jobs:
       - name: checkout code
         uses: actions/checkout@v2
 
+      - name: setup node
+        uses: actions/setup-node@v2.1.2
+        with:
+          node-version: '14.x'
+
       # run은 cmd에서 실행시킬 명령어
       - name: packages install
         run: yarn install
@@ -32,7 +37,7 @@ jobs:
           GH_API_KEY: ${{ secrets.DEPLOY_KEY }}
       
       - name: deploy
-        uses: maxheld83/ghpages@v0.2.1
+        uses: maxheld83/ghpages@v0.3.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_PAT: ${{ secrets.DEPLOY_KEY }}
