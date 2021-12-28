@@ -6,7 +6,7 @@ module.exports = {
   siteUrl: `https://hyoj-kim.github.io/`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
-    github: `https://github.com/Hyoj-Kim`, // Your GitHub account
+    github: `Hyoj-Kim`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
