@@ -1,4 +1,129 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[HyoJ.io]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://hyoj-kim.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 28 Dec 2021 06:43:41 GMT</lastBuildDate><item><title><![CDATA[1214 - 포스팅 파일 제목은 영문으로!]]></title><description><![CDATA[아무생각 없이 한글로 작성했더니, 인코딩된 주소가 너무 보기 힘들다.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[HyoJ.io]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://hyoj-kim.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 11 Jan 2022 16:40:33 GMT</lastBuildDate><item><title><![CDATA[2021 회고]]></title><description><![CDATA[🤔 과연 나는 얼마나 발전하는 삶을 살았는가? ‘나’의 데이터 202…]]></description><link>https://hyoj-kim.github.io/Blog/2021-retrospect/</link><guid isPermaLink="false">https://hyoj-kim.github.io/Blog/2021-retrospect/</guid><pubDate>Fri, 07 Jan 2022 01:01:28 GMT</pubDate><content:encoded>&lt;p&gt;🤔 과연 나는 얼마나 발전하는 삶을 살았는가?&lt;/p&gt;
+&lt;h1 id=&quot;나의-데이터&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%82%98%EC%9D%98-%EB%8D%B0%EC%9D%B4%ED%84%B0&quot; aria-label=&quot;나의 데이터 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;‘나’의 데이터&lt;/h1&gt;
+&lt;p&gt;2021년의 시작은 퇴사 후 자유를 만끽하는 것부터 시작했다. 그러다 시간을 좀 더 효율적으로 쓰고 싶다는 생각이 들면서 생산성 어플이나 습관에 한 동안 집착 아닌 집착을 보였다. 그 때 알게 된 것이 Notion(노션)이었다. 처음 접하자마자 각종 활용 팁들을 이것저것 수집하고 따라해보면서 어떤식으로 이용할지 고민해봤다.&lt;/p&gt;
+&lt;p&gt;고민의 결론은 ‘나’에 대한 데이터를 모아서 보다 나은 ‘나’를 위해 사용해보자는 것이었다. 그 시점에 본 책과 daily report라는 학습법(?)에 꽂히기도 했기에 나의 시간을 기록해보기로 결심했다. &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 305px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 95.33333333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsSAAALEgHS3X78AAADoElEQVQ4y22U328UVRTH+19IQtAQlOiL8OCTvPhgoolPGiughkcTqaAghloNSf3xBLp0oVAD2K6aFGqJIiQmmmqNkGgJxbSuJdveO/tjdmY7u+zsbHd+z87Xc++k293CJiczO3Pnc7/nfM+5fbHvQUTbc3tCPAvsFvRiAW6zCXi0xnHQdp3O++6169G3+aWISFzpGTwbKucJUP7aMuLAS8BdYjrA7gcIgwQUJqFVLZjVKlS1BP2b31Cb+B1rt3OIbJvAEUEfzEoqRODDazZwd24OrllD3XJw+LqGlyYY5v9ZwOJ//2L58CWwl78A259G6fh3aM2vdKBCiBRDrE7KAdUntOpYVut4IVPA46cZdqYVXJhZAstlkfsgA/7Kl+BvnAEnKNs3AvOXu7IEjdUKZWL0pgyqS+h66J8s4YkRhl2jCp4ZU3D1ThmOWYWVzaN+4zaKpI7vH4FyYBTs9TTsBY6Smkcum5W1J6BLIALCx9icge0pht0Ee36cFmkNEuCTCT4Qh7QmRkj101LXpUpOKtUTVyhdeh+GGylLt2wHA5kidqU5do5y/Llcl5sE64UXV2FGO0RArheOUAlIIX/zLFqLithKOt8ni0oqzFIT1wYVnD/GcfZ8kUwW/bapP0V5aGOhtDZ1C+y102D9KdSv/S2fiT5NgKSkutzA90c4pgcY7nxdpk28B9oiUepII6ybWbC9I2CvplD9dnYTMPZQ4xaukrrLhzhmx1SqifvQ6REfCaBwmO1NSWDt8s0uoHC4HcCt27gxnMfUuxw/DiloGWuyFJHjdEHp3rHp0xjayZ8o3XOyfaw/FuUmHaBrWYiCFv7KaLhyiEmouEfsShNELWOCxUEoB7A1P43yh3tQeGsQ+YMX4Rt1agI/cTmiHe8tLlDzLuG+0sT0UU6pKwRluHVJx1pJJ1iLkggRmjqs2XPQhp+C/ukOlAe3wPw5Q3ppX9funZTEHA/3ZgxMDqxg+n2Cvqcg90k/7n/1IowL+1A5+Sy0jx+FPvwkyse3oDp+gJq5Sd/7G7O8cdJ4MoRBudkKpo5VMHN0AqsnHkF5aBu0oa0Eewzlj7ZBpf+1yXcQrpmUaiRru87p23DQ7YABB7WCj9IP4zDSz0H7fDf0z55G5dQemJNvw1v6Fe2IrAmCHlg7Gb3eg3J9KkQfylFrNeGtKvAqKwgaBvSyjmJpNQF5yZnYc3xtPrG7oaKJxRzHUTsJUmSoRWh5hdrUeeip/T8wzFSImYP+CAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;TogglTrack&quot;
+        title=&quot;TogglTrack&quot;
+        src=&quot;/static/e4c7e5270d6451eca5841de1cce5736e/a3e09/01.png&quot;
+        srcset=&quot;/static/e4c7e5270d6451eca5841de1cce5736e/5a46d/01.png 300w,
+/static/e4c7e5270d6451eca5841de1cce5736e/a3e09/01.png 305w&quot;
+        sizes=&quot;(max-width: 305px) 100vw, 305px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;겸사겸사 기록하는 습관도 길러보자는 생각으로 시간기록을 시작했다. 사용한 어플은 Toggl Track이다. 처음에는 구분을 어떻게 해야할 지 몰라서 카테고리 없이 무작정 기록했다. (밝은 회색)&lt;/p&gt;
+&lt;p&gt;어느정도 쌓인 뒤부터는 현재의 나(보라), 미래의 나(파랑), 관리(분홍), 낭비(주황)라는 4가지 카테고리로 나눠서 기록했다. 현재의 나를 위한 시간과 낭비되는 시간이 같다니… 확실히 많이 놀았구나라는 생각이 든다. 이렇게 모아서 보니 진짜 반성하게 된다.&lt;/p&gt;
+&lt;h1 id=&quot;42seoul&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#42seoul&quot; aria-label=&quot;42seoul permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;42Seoul&lt;/h1&gt;
+&lt;p&gt;2021년 2월 15일 라피신이 시작되었다. 코로나로 인한 격일제 진행이었기 때문에 클러스터 근방에 방을 구하는 대신 김포에 사는 이모집에서 한 달간 신세지기로 했다. 이 한 달간 돌아오는 버스안에서 일기를 썼었다. 이 분야에 완전히 뛰어들겠다는 마음으로 시작했지만, 스스로에게 자신이 없었던 나에게 재밌고, 충분히 직업으로 삼을 수 있겠다는 희망을 보여준 시간이었다.&lt;/p&gt;
+&lt;p&gt;라피신이 끝나고 4기 2차 라피신이 진행되는 한 달동안은 그저 놀았다. 결과가 나올때까지 그냥 아무 생각 없이 쉬는 시간을 가졌다.&lt;/p&gt;
+&lt;p&gt;본과정생이 된 5월엔 자취를 위해 집을 알아보러 다녔다. 빠르게 이사까지 하고난 뒤부터는 거의 매일 클러스터에 가면서 서툴면서도 하나하나 과제를 해나갔다. 각종 기업설명회와 멘토특강도 꾸준히 들었다. 이런걸 자주 들어야 내가 어떤 분야에 관심이 생기는지 알 수 있을거라 생각했다. 코로나가 심각해지기 전인 6월까지는 진짜 노션 Diary가 꽤나 빽빽할 정도로 42서울에 적응하기 위한 집중의 시간이었다.&lt;/p&gt;
+&lt;p&gt;코로나로 인해 7월부터 9월 초까지는 전면 온라인 전환이되고, 블랙홀도 같이 멈추면서 약간 딴짓의 시간이 시작되었다. 오픈소스 컨트리뷰션 아카데미, 42Seoul 밋업데이, 피신 해커톤까지… 그래도 모든 것에 진심이었던 내게 좋은 결과로 돌아와서 참 다행이다.&lt;/p&gt;
+&lt;p&gt;11월 말부터는 다시 42Seoul 집중모드로 돌아왔다. 여기에 동아리와 스터디를 곁들인… 때로는 정신없기도 하지만 너무 재밌다. 그래서 한다.&lt;/p&gt;
+&lt;h1 id=&quot;오픈소스-컨트리뷰션-아카데미&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%BB%A8%ED%8A%B8%EB%A6%AC%EB%B7%B0%EC%85%98-%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8&quot; aria-label=&quot;오픈소스 컨트리뷰션 아카데미 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;오픈소스 컨트리뷰션 아카데미&lt;/h1&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 885px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 16.333333333333332%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsSAAALEgHS3X78AAAApklEQVQI1zXOQQ6CMBQEUA5hhBZoESEWWtpaNIJAZOEFXHkB73+FsSAuXiYzi58ffN4v9OMTwzRD6TOUccgLARJzhCRFSNkqWvrftpEkA00PIB7dBK27Qrsel35C203oxhm34YFKt55D3VhIr1YGUv2y8bu2LbK8ROQP04SvDxCfwW5PQUsFZu9Ijbfl0rmbwKUDFxrs1IAJs+KVXcWFBDnWoH+5wBetMVfZhBfzCAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;slack-capture&quot;
+        title=&quot;slack-capture&quot;
+        src=&quot;/static/2bdce10cbaba5fb9f64a07e0de09a250/efc66/02.png&quot;
+        srcset=&quot;/static/2bdce10cbaba5fb9f64a07e0de09a250/5a46d/02.png 300w,
+/static/2bdce10cbaba5fb9f64a07e0de09a250/0a47e/02.png 600w,
+/static/2bdce10cbaba5fb9f64a07e0de09a250/efc66/02.png 885w&quot;
+        sizes=&quot;(max-width: 885px) 100vw, 885px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 20%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAA5klEQVQY012PX0vCUBiH/RZpO2vb2fwTx4SI0NKpIdjmdszmTdcxgiCESbTwKuuDPx0hYXTx8Hsv3t/D+9ak63FE9G+wwini6pqz2RxncIutupye1LEtgVIXtFsdPMel2qtSk55EmoXAD1gV7zx9/ZCZXJQ7Zq9vLJ5zsocV41HIPF7SHwwRwsIzZfcgdv4L/4bAiO8nUx6jiHWasisKPjYbyu2W7/2ez7LkJc+5G09QdpNep4ky+K0A6VWE/uHC48uWTaPewJc+SZKgtUanmjiKWZpcZxnhcETXCC+NrHduhG1DRfgLtjuBgbIDQMoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;2021OSCA&quot;
+        title=&quot;2021OSCA&quot;
+        src=&quot;/static/cb5ee49aa71437f117e4f776124d2e15/c1b63/03.png&quot;
+        srcset=&quot;/static/cb5ee49aa71437f117e4f776124d2e15/5a46d/03.png 300w,
+/static/cb5ee49aa71437f117e4f776124d2e15/0a47e/03.png 600w,
+/static/cb5ee49aa71437f117e4f776124d2e15/c1b63/03.png 1200w,
+/static/cb5ee49aa71437f117e4f776124d2e15/d61c2/03.png 1800w,
+/static/cb5ee49aa71437f117e4f776124d2e15/e8950/03.png 2000w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;딴짓의 시간이라고 칭했던 7월, 슬랙에서 오픈소스 컨트리뷰션 아카데미에 대한 글을 보자마자 하겠다고 결심하고 지원서를 썼다. 사실 프로젝트 설명을 볼 때마다 지금의 내가 할 수 있는게 하나도 없는거 아닌가 싶었지만, 그래도 꼭 해보고 싶어서 정말 열심히 어필했다. 운이 좋게도 1순위로 썼던 Chromium/Blink팀으로 참여할 수 있게 되었다. &lt;/p&gt;
+&lt;p&gt;그리고 1순위로 썼던 Chromium/Blink팀에 참여하게 되었다! 이 전까지는 개발 경험이 있는 사람들 위주로 선정되었던 상당히 어려운 프로젝트였는데, 올해 멘토님은 chromium을 통해서 오픈소스 세계에 입문할 수 있도록 시작을 열어주고 싶어서 경험이 없는 사람들 위주로 선정했다고 하셨다. chromium은 전에 각종 브라우저들 이것저것 써보면서 들어봤었다. 네이버 웨일, 비발디 브라우저가 크로미움 기반 브라우저라는 정도? 사실 거의 아는게 없는 상태긴 했다; 그래도 내가 주로 사용하는 브라우저에 기반이 되는 오픈소스라는 것, 그게 구글에서 만든 프로젝트라 규모가 어마어마하다는 점이 나를 설레게했다. &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1118px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 46.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABVElEQVQoz4WS6XLDIAyE/f7v2Ewz8REfGIM5bIy9lZQmzfGjzGjAQnysFheztTifv1HXFa7XBqfTF7ZtA4/jOPDfeK7hdRFjgFIDhYIeRzjn/oqOHby/5Sy5j9h3KUspIVMNj2KnJCviWJYF+2+RQCkC5TLlMu0zIO9ZDh8H5xYukbN3EUUIHn3foetarGkVoCUb7uCP9o7bzPs3yFvLITh0bUPAK4EmrOsKvmSeZ0yThqPZWkPflvIB3jvMTmOJES5EDMbS2sKTVaz8pWVO8MyHtNZomlqUs8f8eAxkT81UIXqPyQVUSmNLQUIUvreV8yaqxlGhvFwer2+MQVqTAPXUINClDDxVJV1eIicvfhbPr3YDZlLoHwrZX45hGATKNhhdCdAQsOx7+jMUebq9KnwGcmvsW9tSuwQahl4uYTviEjHNinwLmH3EmYB1XyJSbg0jfgDgErv7ulhnDgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;notion&quot;
+        title=&quot;notion&quot;
+        src=&quot;/static/b381e19270b7579851517967a386e899/0f246/04.png&quot;
+        srcset=&quot;/static/b381e19270b7579851517967a386e899/5a46d/04.png 300w,
+/static/b381e19270b7579851517967a386e899/0a47e/04.png 600w,
+/static/b381e19270b7579851517967a386e899/0f246/04.png 1118w&quot;
+        sizes=&quot;(max-width: 1118px) 100vw, 1118px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 960px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAAC+ElEQVQozy2S60/TZxiG++f4ZV/2cck2RSoDa0B2ckURtEgBwVIEQ1FQJgcHKLFJ6xSwpbScysFxaCmlGM226JZtybZMJJZiNBak9PD7FYybXntAP9x53ufNm+u5c7+PRtv3lNLgS0w/x6gIxTHfT1Eo/Yn5NSoX1jkbStB8P40pkOLUVJzTPgX9QIQ6q5Vvv79Co72TRtt3NNi6KHD+hWavPUyde5n2H1Yxz4S5shihyRfBHFQ5f1fFsqjS+pOKeT5F+Uwc43SKrx1PsHS00nz1Ao2dF0VNNF5rpWTwEZqPrctkdP7N/mv/8JH9ERm3ljjYt0SmJ06Ge5MDg3G0cs7ybJIl/WeuDbL7d+7esm8AeQPaIdCNw9HJxA7wMZ/2PGe/K8ZBTxLdsIJuROHQcILDXtHoJp+PxDg8FCNvcAOdO0aO8yXZt6Nk9UbJ7Imi7V0jp3+NXM86mn22ZQ70PCPTsU6t5HTrty3qQwrWh1tcFzX9As1/wFcB0PvfYAkqdEsE9YEk16UWjcX55OYGWU5x7lxDk9MTJtf1gi/FwfGJBGWzCqUzym74Bt821ks3GCoqpq+gkM5z3RyZUCkcS/DNSHxXeRJDtjOGTqLIGxBgvjOCfvAFJ6aSlPi2MAqs3KdiFPBJAXact3PzmAHbUQMdDTYKp9IY7iQoluEF4k7v3RQld+txrwBzHauYxiOcdfxJed9jKgLbnParVPjTVM6plCxK2O9VvABVcwqmhX+pCb3GHJAa+A/j5DoVd6LU+iTDfMcKRe4VjC3TGL1Ryue2xGH6HVDAVbNJKqfjVMnKVPuS1AZTXBp9QIPnVw512cjubkfb3kbNbIKLsrOaI64wp4bClNb1UuZa4kxwW5ZYpSaYlunixp+i2p+kZi5JvcCa7iq0TfxO2/QKZbdH2FO2hw+qi+hye+kaD6ExDIcxjq6Sf2Ec0+RzcZDmnPykJSR1XhWldkGWHdhiipZ7Ci0/vqJDfv6Ly2N8qK9m75kbXLbbaemf5H+/1oKjlem02gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;ppt&quot;
+        title=&quot;ppt&quot;
+        src=&quot;/static/452879fc246554e3a49520004092a258/d9199/05.png&quot;
+        srcset=&quot;/static/452879fc246554e3a49520004092a258/5a46d/05.png 300w,
+/static/452879fc246554e3a49520004092a258/0a47e/05.png 600w,
+/static/452879fc246554e3a49520004092a258/d9199/05.png 960w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;아무것도 몰랐기에 오픈소스 기여가 쉬울리가 없다. 환경설정부터, 어떤 이슈를 골라야하고 어떻게 수정하고 어떻게 리뷰받아야하는지… 정말 모든 단계 하나하나가 나에게 거대한 장벽처럼 느껴졌다. 그럼에도 불구하고 자신의 시간을 쪼개어 멘티들을 서포트해주시는 멘토님, 본인이 공부한 내용을 공유해주는 팀원들에게 감동받으며 나도 열심히 참여했다. 오픈소스 기여 관련한 활동을 할 때마다 최대한 자세히 기록하려 노력했고, 팀원들과 슬랙 외에 같이 공유했으면 하는 내용들을 노션페이지를 만들어 함께 사용하고자 했다. 그래서일까, 어쩌다보니 리드멘티까지 되어서 최종발표까지 진행했다. 개인적으로 준비하는 시간에 다른 활동도 겹쳐서 지칠뻔했지만, 그래도 끝까지 살펴봐주고 응원해준 멘토님과 팀원들 덕분에 준비해온 대로 실수 없이 잘 마쳤다. 발표에 대한 결과까지 좋아서 더 행복했던 것은 안비밀😋&lt;/p&gt;
+&lt;p&gt;발표에서도 언급했던 내용처럼, 오픈소스 기여는 정말 내가 성장하고 있다는 사실이 체감될 정도로 많은 변화를 주었다. 시작할 때 진행한 Git 실습 교육부터 시작해서 다른 사람의 코드를 읽는 연습을 할 수 있었고, 가장 실감났던 때는 내가 어떤 이슈를 풀어나가는 과정에서 다른 이슈를 찾아냈던 점이었다. 그저 작성된 내용을 읽고 받아들이려고만 했던 시간을 거쳐, 사소하고 작은 부분일지라도 좀 더 개선할 수 있는 부분을 찾아서 제안했을 때 그 제안을 인정받았을 때의 그 기쁨은 첫 기여보다도 더 황홀했다. 이 시점을 계기로 아카데미 기간 이후로도 기여를 꾸준히 해야겠다는 다짐을 하게되었다. &lt;/p&gt;
+&lt;h1 id=&quot;마무리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A7%88%EB%AC%B4%EB%A6%AC&quot; aria-label=&quot;마무리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;마무리&lt;/h1&gt;
+&lt;p&gt;2021년은 그야말로 ‘도전’이자 ‘라피신(수영장)’의 해였다. 다시 해보자는 생각으로 결심한 진로를 위해 일단 뛰어들었다. 비록 진짜 수영장은 갈 수 없었지만 내가 한 해동안 뛰어든 다양한 수영장에는 수많은 사람들과 함께였다. 다 같이 헤엄치는 이 곳에서 때로는 게을렀고, 때로는 무리하기도 했지만  빠져들 수 있음에 행복하다. 미리 단정짓고 포기했던 그 때의 나에게 다시 말해주고 싶다. 나도 할 수 있다고.&lt;/p&gt;
+&lt;p&gt;2022년에도 열심히 헤엄칠거다. 머물고 싶은 섬이 보일 때까지, 정말 미친듯이 수영할 생각이다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[1214 - 포스팅 파일 제목은 영문으로!]]></title><description><![CDATA[아무생각 없이 한글로 작성했더니, 인코딩된 주소가 너무 보기 힘들다.
 다른 기술블로그 글들을 살펴보니까 다들 영어로 잘 써놓으셨더라;]]></description><link>https://hyoj-kim.github.io/Blog/1214-english-title/</link><guid isPermaLink="false">https://hyoj-kim.github.io/Blog/1214-english-title/</guid><pubDate>Tue, 14 Dec 2021 22:12:51 GMT</pubDate><content:encoded>&lt;p&gt;아무생각 없이 한글로 작성했더니, 인코딩된 주소가 너무 보기 힘들다.
 다른 기술블로그 글들을 살펴보니까 다들 영어로 잘 써놓으셨더라;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[42seoul]]></title><link>https://hyoj-kim.github.io/42Seoul/42seoul/</link><guid isPermaLink="false">https://hyoj-kim.github.io/42Seoul/42seoul/</guid><pubDate>Fri, 10 Dec 2021 13:12:33 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Chromium에 기여하기]]></title><description><![CDATA[본 글은 Contributing to Chromium과 Commit Checklist의 일부를 번역하여 작성되었습니다. 이제 뭘 하면 되는거지? Chromium 빌드 환경을 구축한 뒤에는 해결하고자하는 Issue…]]></description><link>https://hyoj-kim.github.io/Chromium/contributing-to-chromium/</link><guid isPermaLink="false">https://hyoj-kim.github.io/Chromium/contributing-to-chromium/</guid><pubDate>Wed, 08 Dec 2021 17:13:12 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
